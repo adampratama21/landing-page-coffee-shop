@@ -86,7 +86,7 @@ body {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  line-height: 25px;
+  line-height: 32px;
   z-index: 1000;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -97,5 +97,5 @@ body {
 #back-to-top span {
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 32px;
 }
