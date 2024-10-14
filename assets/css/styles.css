@@ -415,7 +415,7 @@ p {
   grid-template-rows: 1fr 1fr 40px;
   grid-template-areas:
     "about-us contact link"
-    "testimoni contact link"
+    "about-us contact link"
     "copyright copyright copyright";
 }
 
@@ -435,7 +435,7 @@ p {
   /* padding-bottom: 30px; */
   /* border-left: 2px dashed white;
   border-right: 2px dashed white; */
-  border-bottom: 2px dashed white;
+  /* border-bottom: 2px dashed white; */
   /* border: 1px solid red; */
 }
 
@@ -548,8 +548,8 @@ p {
   -o-border-radius: 10px;
 }
 
-.testimoni {
-  grid-area: testimoni;
+/* .testimoni { */
+/* grid-area: testimoni;
   place-self: start center;
   width: 100%;
   display: flex;
@@ -560,14 +560,14 @@ p {
   margin-left: 0px;
   margin-top: 0px;
   padding-left: 50px;
-  padding-right: 50px;
-  /* padding-bottom: 25px; */
-  /* border-right: 2px dashed white;
+  padding-right: 50px; */
+/* padding-bottom: 25px; */
+/* border-right: 2px dashed white;
   border-bottom: 2px dashed white; */
-  /* border: 1px solid red; */
-}
+/* border: 1px solid red; */
+/* } */
 
-.testimoni h1,
+/* .testimoni h1,
 p {
   color: white;
 }
@@ -617,7 +617,7 @@ p {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-}
+} */
 
 .link {
   grid-area: link;
