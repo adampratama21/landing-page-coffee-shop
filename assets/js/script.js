@@ -1,9 +1,9 @@
-alert(
-  "Website ini bersifat fiktif, dengan tujuan untuk melatih kemampuan dalam front-end web development"
-);
+// alert(
+//   "Website ini bersifat fiktif, dengan tujuan untuk melatih kemampuan dalam front-end web development"
+// );
 
 const backToTopButton = document.getElementById("back-to-top");
-const header = document.getElementById("nav");
+const header = document.getElementById("header");
 
 window.onscroll = function () {
   const headerHeight = header.offsetHeight;
