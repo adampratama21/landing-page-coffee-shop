@@ -43,22 +43,20 @@ button.navbar-toggler {
 /* --- NAVBAR END --- */
 
 /*! SECTION - HERO START  */
-.carousel-item {
-  width: 100vw;
-  height: 500px;
-  background-color: #000;
-}
 
 .carousel-item img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 768px) {
   .carousel-item {
-    height: auto;
-    max-height: 240px;
+    height: 220px;
+  }
+  .hero {
+    height: 600px;
   }
   .hero p {
     font-size: 18px;
@@ -66,8 +64,16 @@ button.navbar-toggler {
 }
 
 @media (min-width: 769px) {
+  .carousel-item {
+    min-height: 500px;
+    max-height: 500px;
+  }
   .carousel-item img {
     object-position: 0 -230px;
+  }
+  .hero {
+    height: 700px;
+    background-position: -100px 0;
   }
   .hero p {
     font-size: 22px;
@@ -78,8 +84,6 @@ button.navbar-toggler {
   background-image: url(../img/kopi_susu.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
-  height: 600px;
 }
 
 .hero h1 {
@@ -87,14 +91,9 @@ button.navbar-toggler {
 }
 
 .intro-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-transform: uppercase;
-  text-align: center;
   width: 220px;
   height: 40px;
-  padding: 10px;
+  padding-top: 3px;
   color: #ffffff;
   background-color: rgb(15, 169, 153);
   border: none;
@@ -120,7 +119,7 @@ button.navbar-toggler {
 }
 
 #products h1 {
-  max-width: 400px;
+  max-width: 310px;
   border-bottom: 2px solid black;
 }
 
@@ -256,7 +255,6 @@ button.navbar-toggler {
 }
 
 #buy h1 {
-  max-width: 500px;
   border-bottom: 2px solid black;
 }
 
@@ -325,6 +323,8 @@ button.navbar-toggler {
 
 @media (min-width: 769px) {
   #contact {
+    padding-left: 90px;
+    margin-right: 60px;
     border-left: 3px dashed #fff;
   }
 }
